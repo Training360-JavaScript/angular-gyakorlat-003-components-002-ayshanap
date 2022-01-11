@@ -33,7 +33,7 @@ export class UserListComponent implements OnInit {
    * @returns {void}
    */
   onSelectUser(user: User) : void {
-    user = this.currentUser;
+    this.currentUser = user;
   }
   
 
